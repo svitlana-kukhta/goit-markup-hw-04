@@ -247,8 +247,10 @@ p {margin-top: 0;
                 flex-wrap: wrap;
                 row-gap: 48px;}
 .portfolio-item {background: #fff;
-                width: calc((100% - 48px) / 3);}
+                width: calc((100% - 48px) / 3);
+                transition:  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .portfolio-item:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}                
+.portfolio-item:hover .portfolio-item-img-txt {transform: translateY(0%);}
 .portfolio-item-img {position: relative;
                     overflow: hidden;}
 .portfolio-item-img-txt {position: absolute;
