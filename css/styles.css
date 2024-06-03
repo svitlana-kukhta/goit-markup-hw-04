@@ -319,6 +319,9 @@ p {margin-top: 0;
                 color: #fff;
                 margin-bottom: 16px;}
 .soc-links-list {display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
                 gap: 16px;}
 .soc-links-item {width: 40px;
                 height: 40px;}        
