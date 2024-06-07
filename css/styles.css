@@ -87,9 +87,10 @@ p {margin-top: 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
             background-repeat: no-repeat;
             background-size: cover;
+            max-width: 1440px;
             padding-top: 188px;
             padding-bottom: 188px;
-            max-width: 1440px;
+            margin: 0 auto;
             background-position: center;}
 .slogan {font-weight: 700;
     font-size: 56px;
@@ -269,9 +270,7 @@ p {margin-top: 0;
 .portfolio-text {border-bottom: 1px solid #e7e9fc;
                 border-left: 1px solid #e7e9fc;
                 border-right: 1px solid #e7e9fc;
-                padding: 32px 16px;
-                width: 360px;
-                height: 120px;}
+                padding: 32px 16px;}
 .portfolio-services {font-weight: 500;
                     font-size: 20px;
                     line-height: 1.2;
@@ -282,8 +281,7 @@ p {margin-top: 0;
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
-                    color: #434455;
-                    transform: translateY(100%);}
+                    color: #434455;}
 
 /*Footer*/                    
 .footer {background-color: #2e2f42;
